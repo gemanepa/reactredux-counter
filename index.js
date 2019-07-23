@@ -9,13 +9,17 @@ const store = createStore(counter)
 const rootEl = document.getElementById('root')
 
 const render = () => ReactDOM.render(
+  <React.Fragment>
+  <h1>React + Redux Counter</h1>
   <Counter
     value={store.getState()}
     onIncrement={() => store.dispatch({ type: 'INCREMENT' })}
     onDecrement={() => store.dispatch({ type: 'DECREMENT' })}
     onIncrementx10={() => store.dispatch({ type: 'INCREMENTx10' })}
     onDecrementx5={() => store.dispatch({ type: 'DECREMENTx5' })}
-  />,
+  />
+  </React.Fragment>
+,
   rootEl
 )
 
