@@ -1,5 +1,6 @@
 {
   "name": "gemanepa-react-redux-counter",
+  "author": "gemanepa",
   "version": "0.0.0",
   "private": true,
   "dependencies": {
