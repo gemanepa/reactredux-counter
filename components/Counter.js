@@ -67,7 +67,6 @@ class Counter extends Component {
         <button onClick={onDecrementx5}>
           Decrement x5
         </button>
-         <h5>Made by gemanepa</h5>
       </body>
     )
   }

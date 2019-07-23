@@ -18,6 +18,7 @@ const render = () => ReactDOM.render(
     onIncrementx10={() => store.dispatch({ type: 'INCREMENTx10' })}
     onDecrementx5={() => store.dispatch({ type: 'DECREMENTx5' })}
   />
+  <h5>Made by gemanepa</h5>
   </React.Fragment>
 ,
   rootEl
