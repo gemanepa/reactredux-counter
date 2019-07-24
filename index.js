@@ -10,7 +10,7 @@ const store = createStore(counter)
 const rootEl = document.getElementById('root')
 
 const render = () => ReactDOM.render(
-  <body>
+  <React.Fragment>
   <header>
     <h1>React + Redux Counter</h1>
     <img src="https://2ch.hk/wrk/src/1503256/15494647078392.png"/>
@@ -28,7 +28,7 @@ const render = () => ReactDOM.render(
   <footer>
     <h5>Made by gemanepa</h5>
   </footer>
-  </body>
+  </React.Fragment>
 ,
   rootEl
 )
