@@ -34,8 +34,8 @@ class Counter extends Component {
     const { value, onIncrement, onDecrement, onIncrementx10, onDecrementx5 } = this.props
     return (
       <React.Fragment>
-        Counter: {value}
-        <br /><br />
+        <h2>Counter: {value}</h2>
+        <br />
         <button onClick={onIncrement}>
           Increment
         </button>

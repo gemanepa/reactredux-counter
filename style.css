@@ -1,20 +1,36 @@
-body {
-  margin: auto;
-  color: darkred;
-  font-weight: bolder;
-  height: 100vh;
-  background: #23074d;  /* fallback for old browsers */
-  background: -webkit-linear-gradient(to left, #cc5333, #23074d);  /* Chrome 10-25, Safari 5.1-6 */
-  background: linear-gradient(to left, #cc5333, #23074d); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-  text-align: center;
-}
+      * {
+        font-family: Lato;
+        font-weight: bold;
+        color: darkred;
+      }
+      body {
+        margin: auto;
+        color: darkred;
+        min-height: 100vh;
+background: #004FF9;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to top, #FFF94C, #004FF9);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to top, #FFF94C, #004FF9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 
-h1, p {
-  font-family: Lato;
-}
+        text-align: center;
+      }
 
-img {height: 100px; width: auto;}
+      h1 {font-size: 40px;}
+      h2 {font-size: 30px;}
+      span {color: white}
 
-button:hover {cursor: pointer}
-a:visited {color: darkred}
+      img {
+        height: 150px;
+        width: auto;
+      }
 
+      button {
+        border-radius: 5px;
+        background-color: #cc5333;
+        border-color: darkred;
+        font-size: 20px;
+      }
+      button:hover {
+        cursor: pointer
+      }
+
+      a:visited {color: darkred}
