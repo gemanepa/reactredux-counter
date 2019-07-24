@@ -7,9 +7,11 @@
         margin: auto;
         color: darkred;
         min-height: 100vh;
-background: #004FF9;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to top, #FFF94C, #004FF9);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to top, #FFF94C, #004FF9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+background: #8A2387;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to bottom, #F27121, #E94057, #8A2387);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to bottom, #F27121, #E94057, #8A2387); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
 
         text-align: center;
       }
