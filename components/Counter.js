@@ -35,7 +35,6 @@ class Counter extends Component {
     return (
       <React.Fragment>
         <h2>Counter: {value}</h2>
-        <br />
         <button onClick={onIncrement}>
           Increment
         </button>

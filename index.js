@@ -15,7 +15,6 @@ const render = () => ReactDOM.render(
     <h1>React + Redux Counter</h1>
     <img src="https://2ch.hk/wrk/src/1503256/15494647078392.png"/>
   </header>
-  <br />
   <main>
   <Counter
     value={store.getState()}
