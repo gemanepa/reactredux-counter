@@ -5,12 +5,18 @@ import counter from './reducers'
 import Counter from './components/Counter'
 import './style.css';
 
+
 const store = createStore(counter)
 const rootEl = document.getElementById('root')
 
 const render = () => ReactDOM.render(
-  <React.Fragment>
-  <h1>React + Redux Counter</h1>
+  <body>
+  <header>
+    <h1>React + Redux Counter</h1>
+    <img src="https://2ch.hk/wrk/src/1503256/15494647078392.png"/>
+  </header>
+  <br />
+  <main>
   <Counter
     value={store.getState()}
     onIncrement={() => store.dispatch({ type: 'INCREMENT' })}
@@ -18,8 +24,11 @@ const render = () => ReactDOM.render(
     onIncrementx10={() => store.dispatch({ type: 'INCREMENTx10' })}
     onDecrementx5={() => store.dispatch({ type: 'DECREMENTx5' })}
   />
-  <h5>Made by gemanepa</h5>
-  </React.Fragment>
+  </main>
+  <footer>
+    <h5>Made by gemanepa</h5>
+  </footer>
+  </body>
 ,
   rootEl
 )

@@ -33,7 +33,7 @@ class Counter extends Component {
   render() {
     const { value, onIncrement, onDecrement, onIncrementx10, onDecrementx5 } = this.props
     return (
-      <body>
+      <React.Fragment>
         Counter: {value}
         <br /><br />
         <button onClick={onIncrement}>
@@ -67,7 +67,7 @@ class Counter extends Component {
         <button onClick={onDecrementx5}>
           Decrement x5
         </button>
-      </body>
+      </React.Fragment>
     )
   }
 }
