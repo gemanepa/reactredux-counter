@@ -26,7 +26,8 @@ const render = () => ReactDOM.render(
   />
   </main>
   <footer>
-    <h5>Made by gemanepa</h5>
+    <h3>Made by <a href="https://gemanepa.com">gemanepa</a></h3>
+    <a href="https://github.com/gemanepa/reactredux-counter">Check code</a>
   </footer>
   </React.Fragment>
 ,
