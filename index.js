@@ -13,7 +13,8 @@ const render = () => ReactDOM.render(
   <React.Fragment>
   <header>
     <h1>React + Redux Counter</h1>
-    <img src="https://2ch.hk/wrk/src/1503256/15494647078392.png"/>
+    <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"/>
+    <img src="https://stickeroid.com/uploads/pic/full/thumb/stickeroid_5bf5719e6121a.png"/>
   </header>
   <main>
   <Counter

@@ -25,6 +25,12 @@ background: linear-gradient(to bottom, #F27121, #E94057, #8A2387); /* W3C, IE 10
         width: auto;
       }
 
+      img:last-child {
+        height: 120px;
+        width: auto;
+        margin-bottom: 10px;
+      }
+
       button {
         border-radius: 5px;
         background-color: #cc5333;
