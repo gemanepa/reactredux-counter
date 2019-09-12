@@ -1,12 +1,12 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom'
-import { createStore } from 'redux'
+import { applyMiddleware ,createStore } from 'redux'
+import loggerMiddleware from './middlewares/logger'
 import counter from './reducers'
 import Counter from './components/Counter'
 import './style.css';
 
-
-const store = createStore(counter)
+const store = createStore(counter, applyMiddleware(loggerMiddleware))
 const rootEl = document.getElementById('root')
 
 const render = () => ReactDOM.render(
