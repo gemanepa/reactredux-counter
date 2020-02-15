@@ -14,7 +14,7 @@ const render = () => ReactDOM.render(
   <header>
     <h1>React + Redux Counter</h1>
     <img src="https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"/>
-    <img src="https://stickeroid.com/uploads/pic/full/thumb/stickeroid_5bf5719e6121a.png"/>
+    <img src="https://cdn.freebiesupply.com/logos/large/2x/redux-logo-png-transparent.png"/>
   </header>
   <main>
   <Counter
